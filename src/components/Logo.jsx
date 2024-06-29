@@ -1,12 +1,11 @@
 import React from 'react'
 
-function Header() {
+function Logo({width = '100px'}) {
   return (
     <div>
-      Header
+      Logo
     </div>
   )
 }
 
-export default Header
-Header
+export default Logo
