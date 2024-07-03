@@ -6,6 +6,7 @@ import {login, logout} from "./store/authSlice"
 import { Footer, Header } from './components'
 import { Outlet } from 'react-router-dom'
 
+
 function App() {
   const [loading, setLoading] = useState(true)
   const dispatch = useDispatch()
@@ -24,8 +25,10 @@ function App() {
   
   return !loading ? 
     <>
-    <div className='mx-auto w-full max  '>
-      <div className='mx-auto w-full max bg-blue-500'>
+    
+  
+    <div className='mx-auto w-full max  bg-purple-600'>
+      <div className='mx-auto w-full max '>
         <Header />
         <main>
          <Outlet />
@@ -33,6 +36,9 @@ function App() {
         <Footer />
       </div>
     </div>
+  
+    
+    
     </>
     : null
 }
