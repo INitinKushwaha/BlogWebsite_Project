@@ -27,15 +27,13 @@ function App() {
     <>
     
   
-    <div className='mx-auto w-full max  bg-purple-600'>
-      <div className='mx-auto w-full max '>
-        <Header />
-        <main>
-         <Outlet />
-        </main>
-        <Footer />
-      </div>
-    </div>
+    <div className="flex flex-col min-h-screen">
+            <Header /> {/* Header component */}
+           
+                <Outlet /> {/* This will render the content of the current route */}
+            
+            <Footer /> {/* Footer component */}
+        </div>
   
     
     

@@ -24,17 +24,17 @@ function LogoutBtn() {
         <div>
           <button
             type="button"
-            className="inline-flex justify-center w-full rounded-md border  shadow-sm px-4 py-2 bg-yellow-400 text-sm font-medium text-gray-700 hover:bg-red-400 focus:outline-none"
+            className="inline-flex justify-center w-full rounded-md border  shadow-sm px-4 py-2 bg-custom-gradient text-sm font-medium text-gray-700 hover:bg-red-400 focus:outline-none"
             onClick={toggleDropdown}
           >
             {user.name}
           </button>
           {dropdownOpen && (
-            <div className="origin-top-right absolute right-0 mt-2 w-50 rounded-md shadow-lg bg-red-200 ring-1 ring-black ring-opacity-5">
+            <div className="origin-top-right absolute right-0 mt-2 w-50 rounded-md shadow-lg bg-custom-gradient ring-1 ring-black ring-opacity-5">
               <div className="py-1">
                 <button
                   onClick={logoutHandler}
-                  className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  className="w-full text-left px-4 py-2 text-sm text-gray-700 "
                 >
                   Logout
                 </button>
