@@ -4,7 +4,7 @@ function Logo({ width = '100px' }) {
   return (
     <div>
       <img 
-        src="https://cloud.appwrite.io/v1/storage/buckets/667f95ba0029bd45762d/files/6680e35d001d9f970d3a/preview?project=667f935b0023e205d2dd" 
+        src="https://th.bing.com/th/id/OIP.JVjUDJPqhMr-GqZWPKPBVwHaEW?w=320&h=188&c=7&r=0&o=5&pid=1.7"
         alt="logo" 
         style={{ width: width, height: 'auto' }} 
       />
